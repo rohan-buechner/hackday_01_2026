@@ -185,7 +185,7 @@ export default function Home() {
                     <li>On-device machine learning</li>
                     <li>Offline translation capabilities</li>
                     <li>Low latency responses as translations happen locally on user devices</li>
-                    <li>Free</li>
+                    <li style={{color: "#70e7cd"}}>Free!!</li>
                 </ul>
             </section>
 
@@ -195,7 +195,7 @@ export default function Home() {
                 <ul>
                     <li>Real-time translation API integration</li>
                     <li>Using GemmaX2</li>
-                    <li><span style={{textDecorationLine: 'line-through'}}>Free?</span> Already paid for 😉</li>
+                    <li style={{color: "#70e7cd"}}><span style={{textDecorationLine: 'line-through'}}>Free?</span> Already paid for; Thank you Ricardo 😉</li>
                 </ul>
             </section>
 
