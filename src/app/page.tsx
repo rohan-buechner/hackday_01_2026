@@ -4,18 +4,18 @@ import ReviewSlide from "@/components/ReviewSlide";
 
 export default function Home() {
     const teamMembers = [
-        {name: "Nikola", image: "/team/nikola.png", squad: "Squad A"},
-        {name: "Stefan", image: "/team/stefan.png", squad: "Squad A"},
-        {name: "Dominika", image: "/team/dominika.png", squad: "Squad A"},
-        {name: "Nico", image: "/team/nico.png", squad: "Squad A"},
-        {name: "Selda", image: "/team/selda.png", squad: "Squad A"},
-        {name: "Linda", image: "/team/linda.png", squad: "Squad A"},
-        {name: "Rohan", image: "/team/rohan.png", squad: "Squad A"},
-        {name: "Milan", image: "/team/milan.png", squad: "Squad B"},
-        {name: "Yves", image: "/team/yves.png", squad: "Squad B"},
-        {name: "Victor", image: "/team/victor.png", squad: "Squad B"},
-        {name: "Didier", image: "/team/didier.png", squad: "Squad B"},
-        {name: "Blue", image: "/team/blue.png", squad: "Squad C"},
+        {name: "Nikola", image: "/team/Nikola.png", squad: "Squad A"},
+        {name: "Stefan", image: "/team/Stefan.png", squad: "Squad A"},
+        {name: "Dominika", image: "/team/Dominika.png", squad: "Squad A"},
+        {name: "Nico", image: "/team/Nico.png", squad: "Squad A"},
+        {name: "Selda", image: "/team/Selda.png", squad: "Squad A"},
+        {name: "Linda", image: "/team/Linda.png", squad: "Squad A"},
+        {name: "Rohan", image: "/team/Rohan.png", squad: "Squad A"},
+        {name: "Milan", image: "/team/Milan.png", squad: "Squad B"},
+        {name: "Yves", image: "/team/Yves.png", squad: "Squad B"},
+        {name: "Victor", image: "/team/Victor.png", squad: "Squad B"},
+        {name: "Didier", image: "/team/Didier.png", squad: "Squad B"},
+        {name: "Blue", image: "/team/Blue.png", squad: "Squad C"},
     ];
 
     const squadColors: { [key: string]: string } = {
