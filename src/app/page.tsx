@@ -60,6 +60,16 @@ export default function Home() {
                 </ul>
             </section>
 
+            {/* Overview Slide 1 */}
+            <section data-auto-animate>
+                <h2 data-id="overview-title">Original Goal</h2>
+                <ul>
+                    <li>English as a supported language on the UI.</li>
+                    <li>Ability to translate user generated content dynamically.</li>
+                    <li>Dark Mode 🌑</li>
+                </ul>
+            </section>
+
             {/* Overview Slide 2 */}
             <section data-auto-animate>
                 <h2 data-id="overview-title">The elephant in the room 🐘</h2>
