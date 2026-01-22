@@ -114,6 +114,7 @@ export default function Home() {
                 <h2 data-id="overview-title">Separate but not apart</h2>
                 <ul>
                     <li style={{color: "#70e7cd"}}>Language</li>
+                    <li style={{color: "#70e7cd"}}>Dark Mode</li>
                     <li style={{color: "#e0b63e"}}>Classifieds Backend Deployment</li>
                 </ul>
             </section>
