@@ -47,7 +47,7 @@ export default function Home() {
 
             {/* Final Slide */}
             <section>
-                <ReviewSlide />
+                <ReviewSlide/>
             </section>
 
             {/* Overview Slide 1 */}
@@ -147,6 +147,37 @@ export default function Home() {
                 <h2>Demo Time</h2>
             </section>
 
+            {/* Google Translate on Web */}
+            <section>
+                <h2>Speaker: Stefan</h2>
+            </section>
+
+            {/* Google Translate on Web */}
+            <section>
+                <div style={{
+                    height: "300px",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center"
+                }}>
+                    <img
+                        src="/end_user/Screenshot 2026-01-22 at 17.20.14.png"
+                        alt="End User Screenshot"
+                        style={{
+                            maxHeight: "100%",
+                            maxWidth: "100%",
+                            objectFit: "contain",
+                            borderRadius: "12px",
+                            border: "4px solid #70e7cd"
+                        }}
+                    />
+                </div>
+            </section>
+
+            <section>
+                <h2>Speaker: Nikola</h2>
+            </section>
+
             {/* ML Kit on Apps */}
             <section>
                 <h2>Google ML Kit on Apps</h2>
@@ -164,7 +195,7 @@ export default function Home() {
                 <ul>
                     <li>Real-time translation API integration</li>
                     <li>Using GemmaX2</li>
-                    <li><span style={{textDecorationLine: 'line-through'}}>Free?</span> Already paid for 😉 </li>
+                    <li><span style={{textDecorationLine: 'line-through'}}>Free?</span> Already paid for 😉</li>
                 </ul>
             </section>
 
@@ -206,12 +237,14 @@ export default function Home() {
                         <strong>English is available internally only for now</strong>
                         <br/>
                         <small>...some parts still need some engineering love ❤️</small>
-                        <small>But to be production ready, there are a handful of additional steps needed if we wanted to roll this out to the public</small>
+                        <small>But to be production ready, there are a handful of additional steps needed if we wanted
+                            to roll this out to the public</small>
                     </li>
                     <li className="fragment">
                         <strong>We improved our build pipeline 💪</strong>
                         <br/>
-                        <small>...and took a major step to enabling the same environment locally as what we have on our servers</small>
+                        <small>...and took a major step to enabling the same environment locally as what we have on our
+                            servers</small>
                     </li>
                 </ul>
             </section>
