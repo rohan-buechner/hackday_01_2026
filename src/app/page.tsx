@@ -249,6 +249,7 @@ export default function Home() {
                 </ul>
             </section>
 
+
             {/* Thank You Team */}
             <section>
                 <h2>Thank You! 🎉</h2>
@@ -260,7 +261,20 @@ export default function Home() {
             </section>
 
             <section>
-                <h1 style={{fontSize: "5em"}}>Fin.</h1>
+                <div style={{
+                    width: "400px",
+                    margin: "1em auto",
+                    borderRadius: "12px",
+                    border: "4px solid transparent",
+                    background: "linear-gradient(#222, #222) padding-box, linear-gradient(45deg, #3ea9a3, #5ffbf1, #3ea9a3) border-box",
+                    overflow: "hidden"
+                }}>
+                    <img
+                        src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaXI2bWRpZWN3cTB4dWlzMndvdmJyNTB1OHZtYTN3bWk3a2VnZXE4bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/bOwOAey4MDO3ivBkgK/giphy.gif"
+                        alt="Fin"
+                        style={{width: "100%", display: "block"}}
+                    />
+                </div>
             </section>
         </RevealPresentation>
     );
