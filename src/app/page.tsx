@@ -56,6 +56,15 @@ export default function Home() {
                 <ul>
                     <li>English as a supported language on the UI.</li>
                     <li>Ability to translate user generated content dynamically.</li>
+                    <li>Cross language search.</li>
+                </ul>
+            </section>
+
+            <section data-auto-animate>
+                <h2 data-id="overview-title">Original Goal</h2>
+                <ul>
+                    <li>English as a supported language on the UI.</li>
+                    <li>Ability to translate user generated content dynamically.</li>
                     <li style={{textDecorationLine: 'line-through'}}>Cross language search.</li>
                 </ul>
             </section>
